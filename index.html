@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>MOBLO - cellular repair center</title>
+	
+	<meta name="description" content="Stworzę dla Ciebie wyjątkową stronę www! Zatrudnij programistę webowego: PHP, JavaScript, HTML, CSS, MySQL, WordPress, Joomla, Drupal." />
+	<meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, php, javascript, html, css, WordPress, Joomla, Drupal" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#mail'), 1000); });
+			$('#link2').click(function() { $.scrollTo($('#repair'), 1000); });
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if ($(this).scrollTop() > 200) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+		}		
+		);
+		
+	</script>
+	
+</head>
+
+<body>
+
+<div id="container">
+
+<a href="#" class="scrollup"></a>
+
+	<div id="content">
+		<div id="header">
+			<div id="ograniczenie">
+	
+				<div id="logo">
+					<i class="icon-mobile"></i>MOBLO
+						<p>cellular repair center</p>
+				</div>
+	
+				<div id="menu">
+					<ol>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#mail" id="link1">SERVICES</a></li>
+						<li><a href="#repair" id="link2">IPHONE REPAIR</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">CONTACTS</a></li>
+					</ol>
+				</div>
+			
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="orange">
+		<div id="container2">
+			<span class="bigtitle2">WE FIX BROKEN, DAMAGED</span>
+			<span class="title2">CELLULAR PHONES.</span>
+				
+				<!-- linia odzielająca -->
+				<div class="separator">
+						<div class="line"></div>
+				</div>
+				
+		<!-- element występujący poza stroną -->			
+		<div id="caly">
+			<div id="blok1">
+				<div id="tresc">
+					<div id="zawartosc">
+						<span class="fbfont">facebook</span>
+					</div>
+				</div>
+			</div>
+			<div id="blok2">
+				<div id="uchwytfb"><i class="icon-facebook"></i></div>
+			</div>
+		</div>
+				
+		<div id="caly2">
+			<div id="blok1b">
+				<div id="trescb">
+					<div id="zawartoscb">
+						<span class="gfont">Google +</span>
+					</div>
+				</div>
+			</div>
+			<div id="blok2b">
+				<div id="uchwytg"><i class="icon-gplus"></i></div>
+			</div>
+		</div>
+		
+		<div id="caly3">
+			<div id="blok1c">
+				<div id="trescc">
+					<div id="zawartoscc">
+						<span class="twfont">twitter</span>
+					</div>
+				</div>
+			</div>
+			<div id="blok2c">
+				<div id="uchwyttw"><i class="icon-twitter"></i></div>
+			</div>
+		</div>
+		
+		
+			<span class="text2">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISC ING ELIT. SED MAURIS ERAT, ACCUMSAN FERMENTUM SIT AMET.</span>
+			<span class="button2">how it works</span>
+			
+			<div class="pic"><img src="img/1.png" /></div>
+			<div class="pic2"><img src="img/2.png" /></div>
+			<div class="pic3"><img src="img/3.png" /></div>
+			
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	
+	<div id="gray">
+		<div id="container1">
+			<div id="mail"></div>
+			<div class="repair">
+				<i class="icon-mail"></i>
+				<span class="bigtitle">e-mail</span>				
+				<span class="title">repair</span>			
+				<span class="text">Dolor nunc vule putateulr ips dol consem donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam.</span>			
+				<span class="button">Read More</span>
+			</div>
+			
+			<div class="repair">
+				<i class="icon-hammer"></i>				
+				<span class="bigtitle">walk in</span>				
+				<span class="title">repair</span>				
+				<span class="text">Dolor nunc vule putateulr ips dol consem donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam.</span>
+				<span class="button">Read More</span>				
+			</div>
+			
+			<div class="repair">
+				<i class="icon-hourglass"></i>				
+				<span class="bigtitle">10 minutes</span>				
+				<span class="title">repair</span>				
+				<span class="text">Dolor nunc vule putateulr ips dol consem donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam.</span>				
+				<span class="button">Read More</span>
+			</div>
+		</div>
+	</div>
+	
+	<div id="white">
+		<div id="container3">
+			<div class="rectangle" id="repair">
+				<span class="bigtitle3">what we</span>
+				<span class="title3">repair</span>
+				<span class="text3">
+					<ul>
+						<li><a href="#">ALL MAKES OD CELL PHONES AND PDA'S</a></li>
+						<li><a href="#">IPOD AND MP3 LAYERS</a></li>
+						<li><a href="#">VIDEO GAME DEVICES</a></li>
+						<li><a href="#">LAPTOPS</a></li>
+						<li><a href="#">GPS UNITS</a></li>
+					</ul>
+					Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit, bibendum et condimentum metusi dolore ipsum commete sit amet ing elit.
+				</span>
+			</div>
+			
+			<div class="rectangle">
+				<span class="bigtitle3">welcome to</span>
+				<span class="title3">our site</span>
+				<span class="text3b">Nemo enim ipsam voluptatem voluptas sit. Aspernatur aut odit aut fugit sed quia consequuntur magni dolor eseos qui rationevolupta tem nesciunt lacusueni ascet dolingerto otis aliiqt sit amet eism com odictor ligulate cotameti dapibu emo enim ipsam voluptatem voluptas sit.<br /><br />
+				Nemo enim ipsam voluptatem voluptas sit. Aspernatur aut odit aut fugit sed quia consequuntur magni dolor eseos qui rationevolupta tem nesciunt lacusueni ascet dolingerto otis aliiqt sit amet eism com odictor ligulate cotameti dapibu emo enim ipsam voluptatem voluptas sit. Aspernatur aut odit aut fugit sed quia. Consequuntur magni dolores eos qui rationevoluptatem nesciunt.</span>
+			</div>
+			
+			<div class="rectanglec">
+				<span class="bigtitle3">succes</span>
+				<span class="title3">stories</span>
+				<span class="text3c">
+				Nemo enim ipsam voluptatem voluptas sit. Aspernatur aut odit aut fugit sed quia consequuntur magni dolor eseos qui rationevolupta tem nesciunt lacusueni ascet dolingerto otis aliiqt sit amet eism com odictor ligulate cotameti dapibu emo enim ipsam voluptatem voluptas sit.<br /><br />
+				Nemo enim ipsam voluptatem voluptas sit. Aspernatur aut odit aut fugit sed quia consequuntur magni dolor eseos qui rationevolupta tem nesciunt lacusueni ascet dolingerto otis aliiqt sit amet eism com odictor ligulate cotameti dapibu emo enim ipsam voluptatem voluptas sit. Aspernatur aut odit aut fugit sed quia. Consequuntur magni dolores eos qui rationevoluptatem nesciunt.</span>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	
+	 
+		<div id="footer">
+			<div id="copyright">
+				MOBLO<span style="color:gray;"> &copy 2016 | Privaty Policy</span>
+			</div>
+			
+			<div id="social">
+				<div class="fb"><i class="icon-facebook"></i></div>
+				<div class="gplus"><i class="icon-gplus"></i></div>
+				<div class="tw"><i class="icon-twitter"></i></div>
+			</div>
+		</div>
+	
+</div>
+
+<script src="jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('#header').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('#header').addClass('sticky');
+	} else {
+		$('#header').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+</body>
+</html>
